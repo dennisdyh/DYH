@@ -1,0 +1,46 @@
+﻿@model IEnumerable<DYH.Framework.Models.UserEntity>
+@{
+    ViewBag.Title = "Index";
+}
+<table>
+    <thead>
+        <tr>
+            <th>User Id</th>
+            <th>User Name</th>
+            <th>Password</th>
+            <th>Email</th>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Language</th>
+            <th>Created By</th>
+            <th>Created Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.UserName</td>
+                <td>@item.Password</td>
+                <td>@item.Email</td>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.Language</td>
+                <td>@item.CreatedBy</td>
+                <td>@item.CreatedTime</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<form action="~/Home/Install/" method="post">
+    <input type="text" name="SystemName" />
+    <input type="submit" value="Install News Plugin" />
+</form>
+
+<form action="~/Home/Uninstall/" method="post">
+    <input type="text" name="SystemName" />
+    <input type="submit" value="Uninstall News Plugin" />
+</form>
+

@@ -1,0 +1,7 @@
+﻿{	
+	"DisplayName": "Gallery",
+	"SystemName": "DYH.Plugin.News",
+	"Version": "1.0",	
+	"DisplayOrder": "1",
+	"PluginFileName": "DYH.Plugin.News.dll"
+}

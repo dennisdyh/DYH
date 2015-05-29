@@ -1,0 +1,7 @@
+﻿GroupName: Article Component
+DisplayName: Gallery
+SystemName: DYH.Plugin.Gallery
+Version: 1.0
+Author: Carl Dai
+DisplayOrder: 1
+PluginFileName: DYH.Plugin.Gallery.dll

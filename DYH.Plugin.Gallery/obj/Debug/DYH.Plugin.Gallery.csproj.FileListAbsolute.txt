@@ -1,0 +1,9 @@
+D:\Work\Github\Study\DYH\MvcApp\Plugins\DYH.Plugin.Gallery\DYH.Plugin.Gallery.dll.config
+D:\Work\Github\Study\DYH\MvcApp\Plugins\DYH.Plugin.Gallery\DYH.Plugin.Gallery.dll
+D:\Work\Github\Study\DYH\MvcApp\Plugins\DYH.Plugin.Gallery\DYH.Plugin.Gallery.pdb
+D:\Work\Github\Study\DYH\DYH.Plugin.Gallery\obj\Debug\DYH.Plugin.Gallery.csprojResolveAssemblyReference.cache
+D:\Work\Github\Study\DYH\DYH.Plugin.Gallery\obj\Debug\DYH.Plugin.Gallery.dll
+D:\Work\Github\Study\DYH\DYH.Plugin.Gallery\obj\Debug\DYH.Plugin.Gallery.pdb
+D:\Work\Github\Study\DYH\MvcApp\Plugins\DYH.Plugin.Gallery\Web.config
+D:\Work\Github\Study\DYH\MvcApp\Plugins\DYH.Plugin.Gallery\Description.txt
+D:\Work\Github\Study\DYH\MvcApp\Plugins\DYH.Plugin.Gallery\Views\Gallery\Index.cshtml
