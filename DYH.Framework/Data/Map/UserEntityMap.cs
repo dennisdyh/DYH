@@ -12,12 +12,16 @@ namespace DYH.Framework.Data.Map
     {
         public UserEntityMap()
         {
-            this.ToTable("Users");
-            this.HasKey(x => x.Id);
-            this.Property(x => x.UserName).HasMaxLength(50).IsRequired();
-            this.Property(x => x.Password).HasMaxLength(50).IsRequired();
-            this.Property(x => x.Email).HasMaxLength(200).IsRequired();
-
+            ToTable("Users");
+            HasKey(x => x.Id);
+            Property(x => x.UserName).HasMaxLength(50).IsRequired();
+            Property(x => x.Password).HasMaxLength(50).IsRequired();
+            Property(x => x.Email).HasMaxLength(200).IsRequired();
+            Property(x => x.ChangedBy).HasMaxLength(50);
+            Property(x => x.CreatedBy).HasMaxLength(50);
+            Property(x => x.FirstName).HasMaxLength(50);
+            Property(x => x.LastName).HasMaxLength(50);
+            Property(x => x.Language).HasMaxLength(10);
         }
     }
 }

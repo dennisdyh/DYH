@@ -10,6 +10,7 @@ namespace DYH.Core.Data
     /// 抽象实体基类，所有实体都继承自该实体
     /// </summary>
     /// <typeparam name="T">ID类型</typeparam>
+    /// <typeparam name="TPrimaryKey"></typeparam>
     public abstract class BaseEntity<TPrimaryKey> where TPrimaryKey : struct
     {
         /// <summary>
